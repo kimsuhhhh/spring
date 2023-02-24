@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybits-3-config.dtd">
+<!-- mybatis 사용에 필요한 환경셜정 -->
+<!-- root-context.xml 파일에 mybates부분에 참고하면 -->
+<!-- configLocation(환경파일의 위치),
+ mapperLocations(mapper 파일의 ㅊ위치)==>SQL가 들어있는파일 -->
+
+<property name="configLocation"
+			value="classpath:/mybatis-config.xml">
+		</property>
+		<property name="mapperLocations"
+			value="classpath:/**/*/Mapper.xml">
+		</property>
+<configuration>
+</configuration>
